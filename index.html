@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/utitlties.css">
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <!--<iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="600px"></iframe>-->
+      <h1>Covid 19 || Statistc || Covid || China|| Death ||</h1>
+       <div class="container">
+         <div class="stats">
+            <div class="left-side">
+                <ul>
+                    <li>Continnet</li>
+                    <li>Country</li>
+                    <li>World Map</li>
+                </ul>
+            </div>
+            <div id="chartdiv"></div>
+         </div>
+         <div class="slide">
+             <h2> Today Updates</h2>
+             <ul class="slide-titles">
+                 <li>Country</li>
+                 <li>Confirmed</li>
+                 <li>Death</li>
+                 <li>Recover</li>
+             </ul>
+             <marquee behavior="" direction="up" class="newsFeed">
+             </marquee>
+            
+         </div>
+        </div>         
+     
+
+    <script src="./js/main.js" defer type="module"></script>
+    <script src="./js/map.js" defer type="module"></script>
 </body>
 </html>
