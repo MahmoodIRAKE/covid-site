@@ -80,14 +80,30 @@
 .oneFeed  li:nth-child(1){
     font-size:14px;
 }
-#chartdiv {
-    width: 70%;
-    max-width: 100%;
-      box-shadow: 10px 10px 10px 10px #fff;
-    background-color: #333;
+#myChart-big {
+    width:100%;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+  }
+  #myChart-small{
+    background-color: #fff;
   }
 
 .left-side{
     width: 30%;
     
+}
+label{
+    color:white;
+    font-size: 3vmin;
+    
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.left-side .box{
+  margin-bottom:10px;
 }
